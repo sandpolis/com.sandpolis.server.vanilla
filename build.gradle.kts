@@ -29,7 +29,7 @@ tasks.named<JavaExec>("run") {
 
 dependencies {
 	testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.1")
-	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.6.1")
+	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.2")
 
 	if (project.getParent() == null) {
 		implementation("com.sandpolis:core.server:+")
